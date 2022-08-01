@@ -82,6 +82,10 @@ main{
 }
 .img_psicologo_turn{
     background-color: #91abee;
+    background-image: url(https://media.giphy.com/media/2UBzuNwevK7XPGkBdZ/giphy.gif);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left;
     border-radius: 10px;
     width: 90%;
     height: 250px;
