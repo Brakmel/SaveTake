@@ -22,7 +22,7 @@ header{
     text-align: center;
 }
 h1{
-    font-size: 200px;
+    font-size: 12ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(109, 167, 218);
@@ -38,7 +38,7 @@ h1{
     text-align: center;
 }
 h2{
-    font-size: 20px;
+    font-size: 3ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(109, 167, 218);
@@ -73,16 +73,22 @@ main{
     flex-direction: row;
 }
 .img_psicologo{
-    border-radius: 10px;
-    width: 30%;
+    width: 33%;
     height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
+.img_psicologo_turn{
+    background-color: #91abee;
+    border-radius: 10px;
+    width: 90%;
+    height: 250px;
+    text-align: center;
+}
 h3{
-    font-size: 100%;
+    font-size: 3ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(109, 167, 218);    
@@ -93,7 +99,7 @@ a{
 }
 .datos_psicologo{
     border-radius: 10px;
-    width: 70%;
+    width: 66%;
     height: 300px;
     display: flex;
     align-items: center;
@@ -126,21 +132,21 @@ a{
     flex-direction: row;
 }
 .wsp_h3{
-    font-size: 100%;
+    font-size: 4ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #54d66a;    
     margin: 20px;
 }
 .face_h3{
-    font-size: 100%;
+    font-size: 4ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #91abee;    
     margin: 20px;
 }
 .ig_h3{
-    font-size: 100%;
+    font-size: 4ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #e296e2;    
@@ -164,7 +170,7 @@ a{
     flex-direction: column;
 }
 p{
-    font-size: 100%;
+    font-size: 2ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(109, 167, 218);    
@@ -179,7 +185,7 @@ footer{
     flex-direction: row;
 }
 .p_f{
-    font-size: 20px;
+    font-size: 5ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(109, 167, 218);

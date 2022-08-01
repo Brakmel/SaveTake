@@ -25,7 +25,7 @@ header{
     flex-direction: column;
 }
 h1{
-    font-size: 200px;
+    font-size: 13ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(109, 167, 218);
@@ -40,7 +40,7 @@ h1{
     flex-direction: column;
 }
 h2{
-    font-size: 70px;
+    font-size: 9ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(109, 167, 218);
@@ -55,7 +55,7 @@ h2{
     flex-direction: column;
 }
 h3{
-    font-size: 50px;
+    font-size: 4ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(109, 167, 218);
@@ -81,7 +81,7 @@ a{
     text-decoration: none;
 }
 p{
-    font-size: 40px;
+    font-size: 4ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(250, 227, 243);
@@ -123,7 +123,7 @@ footer{
     flex-direction: row;
 }
 .p_f{
-    font-size: 20px;
+    font-size: 5ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(109, 167, 218);
@@ -137,7 +137,7 @@ footer{
     display: block;
 }
 li{
-    font-size: 20px;
+    font-size: 4ex;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     list-style-type:none;
     color: rgb(250, 227, 243);
@@ -150,7 +150,7 @@ a{
     width: 400px;
     height: 100px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
-    flex-direction: row;
+    flex-direction: column;
 }
