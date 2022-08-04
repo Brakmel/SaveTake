@@ -86,6 +86,11 @@ p{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(250, 227, 243);
 }
+p:hover{
+    cursor: pointer;
+    color: rgb(204, 204, 130);
+    transition: 3s;
+}
 .help{
     background-color: rgb(109, 167, 218);
     width: 100%;

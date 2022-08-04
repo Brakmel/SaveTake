@@ -38,7 +38,7 @@ h1{
     text-align: center;
 }
 h2{
-    font-size: 3ex;
+    font-size: 4ex;
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(109, 167, 218);
@@ -47,144 +47,6 @@ main{
     background-color: rgb(109, 167, 218);
     width: 100%;
     height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.info_personal{
-    background-color: rgb(250, 227, 243);
-    border-radius: 10px;
-    width: 98%;
-    height: 600px;
-    margin: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.mitad_personal{
-    border-radius: 10px;
-    width: 100%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-.img_psicologo{
-    width: 33%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.img_psicologo_turn{
-    background-color: #91abee;
-    text-align: center;
-    border-radius: 10px;
-}
-img{
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: left;
-    border-radius: 10px;
-    width: 90%;
-    height: 250px;
-}
-h3{
-    font-size: 5ex;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(109, 167, 218);    
-    margin: 20px;
-}
-a{
-    text-decoration: none;
-}
-.datos_psicologo{
-    border-radius: 10px;
-    width: 66%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.nombre_psicologo{
-    border-radius: 10px;
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.espe_psicologo{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.cont_psicologo{
-    width: 100%;
-    height: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
-.wsp_h3{
-    font-size: 5ex;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #54d66a;    
-    margin: 20px;
-}
-.wsp_h3:hover{
-    cursor: pointer;
-    transition: 3s;
-    color: #aefa9d;
-}
-.face_h3{
-    font-size: 4ex;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #91abee;    
-    margin: 20px;
-}
-.face_h3:hover{
-    cursor: pointer;
-    transition: 3s;
-    color: #bacdfc;    
-}
-.ig_h3{
-    font-size: 5ex;
-    text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: #e296e2;    
-    margin: 20px;
-}
-.ig_h3:hover{
-    cursor: pointer;
-    transition: 3s;
-    color: #f7c4f7; 
-}
-.descrip_personal{
-    border-radius: 10px;
-    width: 100%;
-    height: 300px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-.descrip{
-    width: 95%;
-    height: 290px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -211,3 +73,137 @@ footer{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: rgb(109, 167, 218);
 }
+a{
+    text-decoration: none;
+}
+.baul_call{
+    background-color: rgb(109, 167, 218);
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+.table_wsp{
+    background-color: rgb(250, 227, 243);
+    width: 400px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.wsp_tittle{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.wsp_center{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.wsp_h3{
+    font-size: 7ex;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #54d66a;    
+    margin: 20px;
+}
+.wsp_h3:hover{
+    cursor: pointer;
+    transition: 3s;
+    color: #aefa9d;
+}
+.table_form{
+    background-color: rgb(250, 227, 243);
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+.p_form{
+    font-size: 2ex;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(109, 167, 218); 
+}
+.form_tittle{
+    width: 100%;
+    height: 100px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    width: 150px;
+    text-align: center;
+    font-size: 2ex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    margin: 3px; 
+}
+.first_campos{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.two_campo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.tree_campo{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+.asunto{
+    width: 80%;
+    height: 100px;
+    text-align: center;
+    font-size: 3ex;
+}
+.submit_campo{
+    width: 100%;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+}
+.enviar{
+    background-color: rgb(109, 167, 218);
+    border: none;
+    width: 120px;
+    height: 40px; 
+}
+.enviar:hover{
+    background-color: rgba(255, 255, 0, 0.547);
+    transition: 5s;
+    cursor: pointer;
+}
+
